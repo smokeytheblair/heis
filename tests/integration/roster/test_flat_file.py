@@ -3,7 +3,8 @@
 import pytest
 
 
-class TestSaltMaster:
+class TestFlatFile:
     @pytest.mark.asyncio
     async def test_read(self):
         ...
+

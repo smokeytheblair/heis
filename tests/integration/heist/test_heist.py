@@ -4,6 +4,12 @@ import pytest
 
 
 class TestSaltMaster:
+    def test_load_subs(self):
+        ...
+
+    def test_start(self):
+        ...
+
     @pytest.mark.asyncio
-    async def test_read(self):
+    async def test_run(self):
         ...
